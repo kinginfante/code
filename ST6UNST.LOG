@@ -1,0 +1,294 @@
+ %% 请一定不要修改或删除该文件！ %% 
+ %% 文件包含关于应用程序安装的信息。 %% 
+ %% 如果选择这样做，将自动删除您计算机上的所有应用程序部件。 %% 
+
+
+NOTE: 引导扇区首
+
+CONFIG: Title: "豪曼信息XP"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINDOWS\system32\VB6STKIT.DLL"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\COMCAT.DLL"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\olepro32.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\VB6CHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\stdole2.tlb"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\asycfilt.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\oleaut32.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\msvbvm60.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\olepro32.dll"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\stdole2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\oleaut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\msvbvm60.dll"
+
+NOTE: 引导扇区尾
+
+NOTE: 正在生成主安装程序 'Setup1.exe'....
+
+ACTION: SharedFile: "C:\WINDOWS\system32\DBRPRCHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\msstdfmt.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSDBRPTR.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\FlxGdCHS.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\Msflxgrd.ocx"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSHFGCHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSHFLXGD.OCX"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\TabCtCHS.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\Tabctl32.ocx"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCC2CHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\Mscomct2.ocx"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\DATLSCHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSDATLST.OCX"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\FM20.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\DATGDCHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSDATGRD.OCX"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCMCCHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\mscomctl.ocx"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\ADODCCHS.DLL"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\msadodc.ocx"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ddisk.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ftext.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_xls.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_wordw.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_rtf.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_pdf.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sacommoncontrols.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\filedialog.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dictionary.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\p2ixbse.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CRAnalyzer.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscdlg.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscrc.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\exlate32.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\querybuilder.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_odbc.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dao.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_ado.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\msvcrt.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\unicows.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\msado20.tlb"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\msbind.dll"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\Flash8.ocx"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "c:\work\demo\HMXP9000\工程1.exe"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\msstdfmt.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSDBRPTR.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\Msflxgrd.ocx"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSHFLXGD.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\Tabctl32.ocx"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\Mscomct2.ocx"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSDATLST.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\FM20.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSDATGRD.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\mscomctl.ocx"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\msadodc.ocx"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sacommoncontrols.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\filedialog.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CRAnalyzer.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll"
+
+*** 错误: 在 'C:\WINDOWS\system32\msado20.tlb' 中未发现 DllRegisterServer() 的输入点
+*** 在本操作期间: DllSelfRegister: "C:\WINDOWS\system32\msado20.tlb"
+
+*** 错误: 注册文件 'C:\WINDOWS\system32\msado20.tlb' 时出错
+*** 错误: (用户响应 '忽略')
+*** 在本操作期间: DllSelfRegister: "C:\WINDOWS\system32\msado20.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\msbind.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\Flash8.ocx"
+
+ACTION: ShellLink: "豪曼信息XP", "豪曼信息XP"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\工程1.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\工程1.exe", ""
+

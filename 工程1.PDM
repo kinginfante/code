@@ -1,0 +1,398 @@
+[Root]
+Most Recent Package=zzz
+
+
+[Package|zzz|豪曼信息XP]
+Icon1=工程1.exe
+Title1=豪曼信息XP
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|zzz|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\work\demo\HmXP9000\包新
+
+[Package|zzz|Configure DAO ISAMs]
+Applicable=No
+
+[Package|zzz|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|zzz|Files Found]
+
+[Package|zzz|Files Released]
+u2dapp.dll=
+u2dpost.dll=
+u2fxml.dll=
+u2fsepv.dll=
+u2fcr.dll=
+crtowords_en.dll=
+wb.swf=
+wa.swf=
+Unicows.dll=
+Flash10h.ocx=
+Flash10l.ocx=
+
+[Package|zzz|Missing Dependency Information]
+E:\WINDOWS\system32\FM20.DLL=
+E:\WINDOWS\system32\Macromed\Flash\Flash8.ocx=
+C:\WINDOWS\system32\FM20.DLL=
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll=
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=
+C:\work\demo\HMXP9000\craxdrt9.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\Macromed\Flash\Flash8b.ocx=
+C:\WINDOWS\system32\CoolGrid.ocx=
+C:\WINDOWS\system32\NiceForm.ocx=
+C:\Program Files\Common Files\crystal decisions\2.0\bin\craxddrt9.dll=
+C:\Program Files\Common Files\crystal decisions\2.0\crystalreportviewers\activexviewer\crviewer9.dll=
+
+[Package|zzz|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\Msflxgrd.ocx=
+E:\WINDOWS\system32\Tabctl32.ocx=
+E:\WINDOWS\system32\Mscomct2.ocx=
+E:\WINDOWS\system32\mscomctl.ocx=
+E:\WINDOWS\system32\msadodc.ocx=
+E:\WINDOWS\system32\msbind.dll=
+C:\WINDOWS\system32\Msflxgrd.ocx=
+C:\WINDOWS\system32\Tabctl32.ocx=
+C:\WINDOWS\system32\Mscomct2.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\msadodc.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\msbind.dll=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\mshflxgd.ocx=
+C:\WINDOWS\system32\msdatlst.ocx=
+C:\WINDOWS\system32\msdatgrd.ocx=
+C:\WINDOWS\system32\msdbrptr.dll=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|zzz|Files Added]
+c:\work\demo\hmxp9000\newhm.swf=
+c:\work\demo\hmxp9000\work.mdb=
+c:\windows\system32\picclp32.ocx=
+c:\work\demo\hmxp9000\jj.mdb=
+
+[Package|zzz|Files Removed]
+c:\windows\system32\fm20.dll=
+c:\work\demo\hmxp9000\work.mdb=
+c:\windows\system32\winskchs.dll=
+c:\windows\system32\vb6chs.dll=
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows\system32\tabctl32.ocx=
+c:\windows\system32\tabctchs.dll=
+c:\windows\system32\richtx32.ocx=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\windows\system32\rchtxchs.dll=
+c:\windows\system32\picclp32.ocx=
+c:\windows\system32\pcclpchs.dll=
+c:\windows\system32\niceform.ocx=
+c:\work\demo\hmxp9000\newhm.swf=
+c:\windows\system32\mswinsck.ocx=
+c:\windows\system32\msstdfmt.dll=
+c:\windows\system32\mshflxgd.ocx=
+c:\windows\system32\mshfgchs.dll=
+c:\windows\system32\msdbrptr.dll=
+c:\windows\system32\msdatlst.ocx=
+c:\windows\system32\msdatgrd.ocx=
+c:\windows\system32\mscomctl.ocx=
+c:\windows\system32\mscomct2.ocx=
+c:\windows\system32\mscmcchs.dll=
+c:\windows\system32\mscc2chs.dll=
+c:\windows\system32\msbind.dll=
+c:\windows\system32\msadodc.ocx=
+c:\program files\common files\system\ado\msado20.tlb=
+c:\work\demo\hmxp9000\jj.mdb=
+c:\work\demo\hmxp9000\hugeman.exe=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\gapi32.dll=
+c:\windows\system32\dbrprchs.dll=
+c:\windows\system32\datlschs.dll=
+c:\windows\system32\datgdchs.dll=
+c:\program files\common files\crystal decisions\2.0\crystalreportviewers\activexviewer\crviewer9.dll=
+c:\work\demo\hmxp9000\craxdrt9.dll=
+c:\program files\common files\crystal decisions\2.0\bin\craxddrt9.dll=
+c:\windows\system32\coolgrid.ocx=
+c:\windows\system32\comdlg32.ocx=
+c:\windows\system32\cmdlgchs.dll=
+c:\windows\system32\adodcchs.dll=
+
+[Package|zzz|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=No
+C:\WINDOWS\system32\oleaut32.dll=No
+C:\WINDOWS\system32\olepro32.dll=No
+C:\WINDOWS\system32\asycfilt.dll=No
+C:\WINDOWS\system32\stdole2.tlb=No
+C:\WINDOWS\system32\VB6CHS.DLL=No
+C:\WINDOWS\system32\msbind.dll=No
+C:\WINDOWS\system32\msstdfmt.dll=No
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll=No
+C:\WINDOWS\system32\msadodc.ocx=No
+C:\WINDOWS\system32\ADODCCHS.DLL=No
+C:\WINDOWS\system32\MSCOMCTL.OCX=No
+C:\WINDOWS\system32\MSCMCCHS.DLL=No
+C:\WINDOWS\system32\MSDATGRD.OCX=No
+C:\WINDOWS\system32\DATGDCHS.DLL=No
+C:\WINDOWS\system32\FM20.DLL=No
+C:\WINDOWS\system32\MSDATLST.OCX=No
+C:\WINDOWS\system32\DATLSCHS.DLL=No
+C:\WINDOWS\system32\Mscomct2.ocx=No
+C:\WINDOWS\system32\MSCC2CHS.DLL=No
+C:\WINDOWS\system32\Tabctl32.ocx=No
+C:\WINDOWS\system32\TabCtCHS.dll=No
+C:\WINDOWS\system32\MSHFLXGD.OCX=No
+C:\WINDOWS\system32\MSHFGCHS.DLL=No
+C:\WINDOWS\system32\MSDBRPTR.DLL=No
+C:\WINDOWS\system32\DBRPRCHS.DLL=No
+C:\WINDOWS\system32\RICHTX32.OCX=No
+C:\WINDOWS\system32\RCHTXCHS.DLL=No
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\work\demo\HMXP9000\NewHm.swf=No
+C:\work\demo\HMXP9000\work.mdb=No
+C:\work\demo\HMXP9000\Hugeman.exe=No
+C:\Program Files\Common Files\crystal decisions\2.0\crystalreportviewers\activexviewer\crviewer9.dll=No
+C:\work\demo\HMXP9000\craxdrt9.dll=No
+C:\WINDOWS\system32\comdlg32.ocx=No
+C:\WINDOWS\system32\CMDLGCHS.DLL=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=No
+C:\WINDOWS\system32\MSWINSCK.OCX=No
+C:\WINDOWS\system32\WINSKCHS.DLL=No
+C:\WINDOWS\system32\NiceForm.ocx=No
+C:\WINDOWS\system32\CoolGrid.ocx=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=No
+C:\WINDOWS\system32\PCCLPCHS.DLL=No
+C:\work\demo\HMXP9000\jj.mdb=No
+
+[Package|zzz|Configure Registry Files]
+Applicable=No
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\CR9Deploy.reg=Register
+\Program files\common files\Crystal Decisions\2.0\bin\CR9DEPLOY.REG=Register
+
+[Package|zzz|Configure Remote Servers]
+Applicable=No
+
+[Package|zzz|Install Locations]
+C:\work\demo\HmXP9000\工程1.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\New Pro\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\system32\VB6CHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\Macromed\Flash\Flash8.ocx=$(WinSysPath)
+E:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+E:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+E:\Program Files\Common Files\Crystal Decisions\2.0\crystalreportviewers\ActiveXViewer\crviewer9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Crystal Decisions\Report Designer Component\craxdrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\WINDOWS\system32\unicows.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscrc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscdlg.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\CRAnalyzer.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\p2ixbse.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dictionary.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\filedialog.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\sacommoncontrols.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+E:\WINDOWS\system32\msadodc.ocx=$(WinSysPath)
+E:\WINDOWS\system32\ADODCCHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+E:\WINDOWS\system32\MSCMCCHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+E:\WINDOWS\system32\DATGDCHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+E:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+E:\WINDOWS\system32\DATLSCHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+E:\WINDOWS\system32\MSCC2CHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+E:\WINDOWS\system32\TabCtCHS.dll=$(WinSysPath)
+E:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+E:\WINDOWS\system32\MSHFGCHS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+E:\WINDOWS\system32\FlxGdCHS.dll=$(WinSysPath)
+E:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+E:\WINDOWS\system32\DBRPRCHS.DLL=$(WinSysPath)
+C:\New Pro\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\New Pro\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\New Pro\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\STDFTCHS.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxddrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\Unicows.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscrc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscdlg.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CRAnalyzer.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\p2ixbse.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dictionary.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\filedialog.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sacommoncontrols.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll=$(WinSysPath)
+C:\WINDOWS\system32\msadodc.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATGDCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2CHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TabCtCHS.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFGCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\FlxGdCHS.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXCHS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\work\demo\HMXP9000\NewHm.swf=$(AppPath)
+C:\work\demo\HMXP9000\wa.swf=$(AppPath)
+C:\work\demo\HMXP9000\wb.swf=$(AppPath)
+C:\work\demo\HMXP9000\work.mdb=$(AppPath)
+C:\work\demo\HMXP9000\Hugeman.exe=$(AppPath)
+C:\WINDOWS\system32\Macromed\Flash\Flash8b.ocx=$(WinSysPath)
+C:\Program Files\Common Files\crystal decisions\2.0\crystalreportviewers\activexviewer\crviewer9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\work\demo\HMXP9000\craxdrt9.dll=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKCHS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\NiceForm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CoolGrid.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PCCLPCHS.DLL=$(WinSysPath)
+C:\work\demo\HMXP9000\jj.mdb=$(AppPath)
+
+[Package|zzz|Configure Shared Files]
+Applicable=No
+C:\work\demo\HmXP9000\工程1.exe=Yes
+C:\work\demo\HMXP9000\NewHm.swf=Yes
+C:\work\demo\HMXP9000\wa.swf=Yes
+C:\work\demo\HMXP9000\wb.swf=Yes
+C:\work\demo\HMXP9000\work.mdb=Yes
+C:\work\demo\HMXP9000\Hugeman.exe=Yes
+C:\work\demo\HMXP9000\jj.mdb=Yes
+
+[Package|zzz|Distribution]
+Type=single
+Size=
+Title=豪曼信息数据源
+
+[Package|zzz|Package]
+PackageFolder=C:\work\demo\HmXP9000\包新
+ProjectFolder=C:\work\demo\HMXP9000
+ServerSideCab=
+File1=C:\work\demo\HmXP9000\包新\setup.exe
+File2=C:\work\demo\HmXP9000\包新\Setup.Lst
+File3=C:\work\demo\HmXP9000\包新\Hugeman.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|zzz|IconGroups]
+Group0=豪曼信息2011钻石版
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|zzz|豪曼信息2011钻石版]
+Icon1=Hugeman.exe
+Title1=豪曼信息
+StartIn1=$(AppPath)
+Key1=Icon1
