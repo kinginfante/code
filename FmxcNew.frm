@@ -128,7 +128,7 @@ Begin VB.Form FmxcNew
          CalendarBackColor=   12648447
          CalendarTitleBackColor=   16711680
          CalendarTrailingForeColor=   8454016
-         Format          =   134742017
+         Format          =   123797505
          CurrentDate     =   38797
       End
       Begin VB.Shape Shape1 
@@ -1062,7 +1062,7 @@ Begin VB.Form FmxcNew
       _ExtentY        =   556
       _Version        =   393216
       CustomFormat    =   "yyyy年M月d日"
-      Format          =   147456003
+      Format          =   114819075
       CurrentDate     =   38098
    End
    Begin MSComCtl2.DTPicker dt3 
@@ -1075,7 +1075,7 @@ Begin VB.Form FmxcNew
       _ExtentY        =   556
       _Version        =   393216
       CustomFormat    =   "yyyy年M月d日"
-      Format          =   147456003
+      Format          =   114163715
       CurrentDate     =   38098
    End
    Begin MSHierarchicalFlexGridLib.MSHFlexGrid dtgLx 
@@ -2253,7 +2253,7 @@ frmFX.Visible = False
 If Val(txtYJ.Text) > 0 Then
     YJF = True
 End If
-If OptT1.Value = True And Lc > 1 And (mod1.DName = "郑刚" Or mod1.DName = "乔继敏" Or mod1.DName = "蒋旭峰") And Val(txtYJ.Text) = 0 Then
+If OptT1.Value = True And Lc > 1 And (mod1.DName = "郑刚" Or mod1.DName = "乔继敏" Or mod1.DName = "蒋旭峰" Or mod1.DName = "周春云") And Val(txtYJ.Text) = 0 Then
     ii = MsgBox("是否包含费用?", vbQuestion + vbYesNo + vbDefaultButton2, "请确认")
     If ii = vbYes Then
         YJF = True
