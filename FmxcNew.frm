@@ -128,7 +128,7 @@ Begin VB.Form FmxcNew
          CalendarBackColor=   12648447
          CalendarTitleBackColor=   16711680
          CalendarTrailingForeColor=   8454016
-         Format          =   123797505
+         Format          =   123994113
          CurrentDate     =   38797
       End
       Begin VB.Shape Shape1 
@@ -1062,7 +1062,7 @@ Begin VB.Form FmxcNew
       _ExtentY        =   556
       _Version        =   393216
       CustomFormat    =   "yyyy年M月d日"
-      Format          =   114819075
+      Format          =   124583939
       CurrentDate     =   38098
    End
    Begin MSComCtl2.DTPicker dt3 
@@ -1075,7 +1075,7 @@ Begin VB.Form FmxcNew
       _ExtentY        =   556
       _Version        =   393216
       CustomFormat    =   "yyyy年M月d日"
-      Format          =   114163715
+      Format          =   124583939
       CurrentDate     =   38098
    End
    Begin MSHierarchicalFlexGridLib.MSHFlexGrid dtgLx 
@@ -2121,7 +2121,7 @@ If OptT1.Value = True And Me.JCYG = True Then
     MsgBox ("合同中只能有一个预估成本询价单！")
     Exit Sub
 End If
-If txtQy.Text <> "上海" And (mod1.DName = "于晓静" Or mod1.DName = "乔继敏") Then
+If txtQy.Text <> "上海" And (mod1.DName = "倪东海" Or mod1.DName = "乔继敏") Then
     If optG1.Value = False And optG2.Value = False Then
         MsgBox "请确认盖章还是收回原件!"
         Exit Sub
@@ -2159,7 +2159,7 @@ Case 100
     lblHTF.Caption = "完成"
 End Select
 
-If (mod1.DName = "于晓静" Or mod1.DName = "乔继敏" Or mod1.DName = txtYwy.Text) Then
+If (mod1.DName = "倪东海" Or mod1.DName = "乔继敏" Or mod1.DName = txtYwy.Text) Then
     LCRen = mod1.DName: LCUid = mod1.DHid
 
 End If
@@ -2845,7 +2845,7 @@ End If
 If Not (lblHTF.Caption = "编辑" Or lblHTF.Caption = "评审" Or lblHTF.Caption = "盖章" Or lblHTF.Caption = "待执行") And mod1.DName <> "马晓聪" And txtQy.Text = "上海" Then
     Exit Sub
 End If
-If (mod1.DName = "于晓静" Or mod1.DName = "乔继敏") And (Me.lblHTF = "执行中" Or Me.lblHTF = "盖章" Or Me.lblHTF.Caption = "待执行") Then
+If (mod1.DName = "倪东海" Or mod1.DName = "乔继敏") And (Me.lblHTF = "执行中" Or Me.lblHTF = "盖章" Or Me.lblHTF.Caption = "待执行") Then
     LCRen = mod1.DName: LCUid = mod1.DHid
 
 End If

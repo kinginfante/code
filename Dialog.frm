@@ -431,7 +431,7 @@ Select Case Tlx
             Call FmxcNew.Bound(Tbh)
             FmxcNew.Show
             FmxcNew.ZOrder 0
-            If mod1.DName <> "乔继敏" And mod1.DName <> "于晓静" And mod1.DName <> "王绣霞" And mod1.DName <> "朱婷婷" Then
+            If mod1.DName <> "乔继敏" And mod1.DName <> "于晓静" And mod1.DName <> "王绣霞" And mod1.DName <> "朱婷婷" And mod1.DName <> "倪东海" Then
             Call FmxcNew.Xian
             End If
             Exit Sub
