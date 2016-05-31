@@ -128,7 +128,7 @@ Begin VB.Form FmxcNew
          CalendarBackColor=   12648447
          CalendarTitleBackColor=   16711680
          CalendarTrailingForeColor=   8454016
-         Format          =   138084353
+         Format          =   138477569
          CurrentDate     =   38797
       End
       Begin VB.Shape Shape1 
@@ -1920,7 +1920,7 @@ timZm = 1 '付款编辑
     mod1.cmd.Parameters("@mm1") = Val(txtYje.Text)
     mod1.cmd.Parameters("@mm20") = 0
     mod1.cmd.Parameters("@mb1") = chkKDFH.Value '款到发货
-    mod1.cmd.Parameters("@md1") = txtYRQ.Text
+    mod1.cmd.Parameters("@md1") = txtYrq.Text
     Call mod1.REV: mod1.cmd.Parameters("@zt") = mod1.ZT
     mod1.cmd.Execute
     mod1.Zid = mod1.cmd.Parameters("@zid").Value
@@ -2179,7 +2179,7 @@ If Lc = 1 Then
         Exit Sub
     End If
     
-    If Val(cmdDZ.ToolTipText) = 0 And Lc = 1 Then
+    If Val(cmdDz.ToolTipText) = 0 And Lc = 1 Then
         MsgBox "请导入电子版合同(商务）!"
         Call cmdDZ_Click
         frmQm.Visible = False
@@ -2281,7 +2281,7 @@ timZm = 10 '签字
     mod1.cmd.Parameters("@uid") = mod1.DHid
     mod1.cmd.Parameters("@mt1") = txtXYwy.Text
     mod1.cmd.Parameters("@mt2") = txtXYwy.ToolTipText
-    mod1.cmd.Parameters("@mt3") = txtXmmc.Text
+    mod1.cmd.Parameters("@mt3") = txtXMMC.Text
     mod1.cmd.Parameters("@mt4") = txtHtbh.Text
     
     mod1.cmd.Parameters("@mt5") = lblHTF.Caption '状态
@@ -2357,15 +2357,15 @@ If cmdSave.Enabled = True Then
 End If
 '''    Call HTInput(0)
 '''    Exit Sub
-If Val(cmdDZ.ToolTipText) = 0 Then
-    txtHtbh.ToolTipText = cmdDZ.ToolTipText
+If Val(cmdDz.ToolTipText) = 0 Then
+    txtHtbh.ToolTipText = cmdDz.ToolTipText
     Call HTInput(0)
     Exit Sub
 End If
 If Lc = 1 And LCUid = mod1.DHid Then
     ii = MsgBox("是否重新导入电子合同？", vbQuestion + vbYesNo, "请问")
     If ii = vbYes Then
-        txtHtbh.ToolTipText = cmdDZ.ToolTipText
+        txtHtbh.ToolTipText = cmdDz.ToolTipText
         Call HTInput(0)
         Exit Sub
     End If
@@ -2376,7 +2376,7 @@ Dim bt() As Byte
 Dim tt As String
 On Error Resume Next
 Kill "c:\work\*.xls": Kill "c:\work\*.doc": Kill "c:\work\*.pdf"
-tt = "select fnr,fsize,fname from ht where fid=" & Val(cmdDZ.ToolTipText) & " and xz=0"
+tt = "select fnr,fsize,fname from ht where fid=" & Val(cmdDz.ToolTipText) & " and xz=0"
 frmGGL.adoFile.Recordset.Close
 frmGGL.adoFile.Recordset.Open tt, mod1.workHT, adOpenKeyset, adLockReadOnly, adCmdText
 
@@ -2464,7 +2464,7 @@ timZm = 1 '付款编辑
     mod1.cmd.Parameters("@mm1") = Val(txtYje.Text)
     mod1.cmd.Parameters("@mm20") = Val(lblFid.Caption)
     mod1.cmd.Parameters("@mb1") = Null
-    mod1.cmd.Parameters("@md1") = txtYRQ.Text
+    mod1.cmd.Parameters("@md1") = txtYrq.Text
     Call mod1.REV: mod1.cmd.Parameters("@zt") = mod1.ZT
     mod1.cmd.Execute
     mod1.Zid = mod1.cmd.Parameters("@zid").Value
@@ -2782,22 +2782,22 @@ If Lc = 1 And LCUid = mod1.DHid Then
     companyId.Visible = True
     cmdSave.Enabled = True
     cmdDel.Enabled = True
-    frmTj.Visible = True
+    frmTJ.Visible = True
     '''''optAA.Value = True
     Me.companyId.Visible = True
     txtXYwy.Locked = False
 End If
 If lblHTF.Caption = "执行中" Then '合同执行后，只能做成本变更单
-    frmTj.Visible = True
+    frmTJ.Visible = True
     
     'optAb.Value = True
 End If
 If mod1.Kyj = True And LCUid = mod1.DHid Then
-    frmYj.Visible = True
+    frmYJ.Visible = True
     txtYJ.Locked = False
     cmdSave.Enabled = True
 Else
-    frmYj.Visible = False
+    frmYJ.Visible = False
 End If
 'If (mod1.DName = "乔继敏" Or mod1.DName = "于晓静" Or mod1.DName = "徐瑛") And lblHTF.Caption = "执行中" Then
 If mod1.DName = "乔继敏" Or mod1.DName = "于晓静" Or mod1.DName = "徐瑛" Then
@@ -2850,12 +2850,13 @@ If (mod1.DName = "倪东海" Or mod1.DName = "乔继敏") And (Me.lblHTF = "执行中" Or
 
 End If
 
-If (mod1.DName = "乔继敏" Or mod1.DName = "徐瑛" Or mod1.DName = "马晓聪") And (lblHTF.Caption = "执行中" Or lblHTF.Caption = "编辑") Then
+If (mod1.DName = "乔继敏" Or mod1.DName = "倪东海" Or mod1.DName = "马晓聪") And (lblHTF.Caption = "执行中" Or lblHTF.Caption = "编辑") Then
     frmQm.Visible = True
     cmdDing.Enabled = True
         optT2.Enabled = True
         OptT1.Value = False
         optT2.Value = False
+        LCRen = mod1.DName: LCUid = mod1.DHid
         Exit Sub
 End If
 '''''''''''If Lc = 100 Then
@@ -3088,14 +3089,14 @@ Dim tt As String
      mod1.cmd.Parameters("@bh") = ""
      mod1.cmd.Parameters("@ywy") = mod1.DName
      mod1.cmd.Parameters("@uid") = mod1.DHid
-     mod1.cmd.Parameters("@mt1") = txtXmmc.Text
+     mod1.cmd.Parameters("@mt1") = txtXMMC.Text
      mod1.cmd.Parameters("@mt2") = "询价指令"
       mod1.cmd.Parameters("@mt3") = ""
           mod1.cmd.Parameters("@mt4") = lblHid.Caption
      mod1.cmd.Parameters("@mt5") = ""
      mod1.cmd.Parameters("@mt25") = lblHid.Caption
      mod1.cmd.Parameters("@mlt1") = ""
-     mod1.cmd.Parameters("@mm1") = Val(txtXmmc.ToolTipText)
+     mod1.cmd.Parameters("@mm1") = Val(txtXMMC.ToolTipText)
      mod1.cmd.Parameters("@mm2") = 0
     ' Exit Sub
      mod1.cmd.Parameters("@md1") = Null
@@ -3291,7 +3292,7 @@ timZm = 16 '添加奖金
     mod1.cmd.Parameters("@ywy") = mod1.DName
     mod1.cmd.Parameters("@uid") = mod1.DHid
     mod1.cmd.Parameters("@mt1") = Trim(txtHtbh.Text) '合同编号
-    mod1.cmd.Parameters("@mt2") = Trim(txtXmmc.Text) '项目名称
+    mod1.cmd.Parameters("@mt2") = Trim(txtXMMC.Text) '项目名称
     mod1.cmd.Parameters("@mt3") = ""
     mod1.cmd.Parameters("@mt4") = ""
     mod1.cmd.Parameters("@mt5") = ""
@@ -3367,7 +3368,7 @@ timZm = 16 '奖金编辑
     mod1.cmd.Parameters("@ywy") = mod1.DName
     mod1.cmd.Parameters("@uid") = mod1.DHid
     mod1.cmd.Parameters("@mt1") = Trim(txtHtbh.Text) '合同编号
-    mod1.cmd.Parameters("@mt2") = Trim(txtXmmc.Text) '项目名称
+    mod1.cmd.Parameters("@mt2") = Trim(txtXMMC.Text) '项目名称
 
     mod1.cmd.Parameters("@mm1") = Yid
 
@@ -3529,7 +3530,7 @@ End Sub
 
 Private Sub dtgFk_Click()
 dtgFKN.Row = dtgFk.Row
-dtgFKN.Col = 0: txtYRQ.Text = dtgFKN.Text
+dtgFKN.Col = 0: txtYrq.Text = dtgFKN.Text
 dtgFKN.Col = 2: txtYje.Text = dtgFKN.Text
 dtgFKN.Col = 3: lblFid.Caption = dtgFKN.Text
 End Sub
@@ -3637,7 +3638,7 @@ If Bid = 0 And ((txtYwy.ToolTipText = mod1.DHid Or txtXYwy.ToolTipText = mod1.DH
             mod1.cmd.Parameters("@ywy") = txtXYwy.Text
             mod1.cmd.Parameters("@uid") = txtXYwy.ToolTipText
             mod1.cmd.Parameters("@mt1") = LX
-            mod1.cmd.Parameters("@mt2") = txtXmmc.Text
+            mod1.cmd.Parameters("@mt2") = txtXMMC.Text
             mod1.cmd.Parameters("@mlt1") = ""
             mod1.cmd.Parameters("@mm1") = 88 'NLB值
             mod1.cmd.Parameters("@mm10") = NewId
@@ -3667,7 +3668,7 @@ If Bid = 0 And ((txtYwy.ToolTipText = mod1.DHid Or txtXYwy.ToolTipText = mod1.DH
             mod1.BTZ = 36
     ElseIf ii = vbYes Then
         '''''tt = "select rq,jhg,bid from xunjiaD where delf=1 and xid=" & Val(txtXmmc.ToolTipText) & " and brq> getdate() and (htbh is null or htbh='') and htrow=" & dtgLx.Row & " order by bid desc"
-        tt = "select brq,jhg,bid from xunjiaD where delf=1 and xid=" & Val(txtXmmc.ToolTipText) & " and  (htbh is null or htbh='')   order by bid desc"
+        tt = "select brq,jhg,bid from xunjiaD where delf=1 and xid=" & Val(txtXMMC.ToolTipText) & " and  (htbh is null or htbh='')   order by bid desc"
         Set mod1.HTP = CreateObject("adodb.recordset")
         mod1.HTP.Open tt, mod1.workKK, adOpenForwardOnly, adLockReadOnly, adCmdText
         Ra = mod1.HTP.GetRows
@@ -3687,7 +3688,7 @@ If Bid = 0 And ((txtYwy.ToolTipText = mod1.DHid Or txtXYwy.ToolTipText = mod1.DH
             fmxcXjBr.dtgN.Col = 2: fmxcXjBr.dtgN.Text = "XJD" & Trim(Str(Ra(2, oo - 1)))
             fmxcXjBr.dtgN.Col = 3: fmxcXjBr.dtgN.Text = Ra(2, oo - 1)
         Next
-        fmxcXjBr.Caption = "询价单（" & FmxcNew.txtXmmc.Text & "）"
+        fmxcXjBr.Caption = "询价单（" & FmxcNew.txtXMMC.Text & "）"
         fmxcXjBr.lblHid.Caption = lblHid.Caption
         fmxcXjBr.Show
         fmxcXjBr.ZOrder 0
@@ -3831,7 +3832,7 @@ End If
 End Sub
 
 Private Sub dtpYf_CloseUp()
-txtYRQ.Text = dtpYf.Value
+txtYrq.Text = dtpYf.Value
 End Sub
 
 
@@ -3904,7 +3905,7 @@ End Sub
 
 Private Sub Form_DblClick()
 If mod1.DName = "宋晓炯" Or mod1.DName = "颜继明" Or mod1.DName = "王国君" Then
-    frmYj.Visible = True
+    frmYJ.Visible = True
 End If
 If frmYG.Visible = True Then
 frmYG.Visible = False
@@ -3942,15 +3943,15 @@ Dim oo As Integer
 Me.comFPLX.Visible = False
 Me.dt3.Visible = False
 Me.dt4.Visible = False
-cmdHT.Visible = False
+cmdHt.Visible = False
 Me.companyId.Visible = False
 optAA.Value = True
 txtHtrq.Text = ""
-txtXmmc.Text = "": txtXmmc.ToolTipText = ""
+txtXMMC.Text = "": txtXMMC.ToolTipText = ""
 txtKhmc.Text = "": txtKhmc.ToolTipText = ""
 txtHtbh.Text = "": txtHtbh.ToolTipText = ""
-cmdDZ.ToolTipText = "": cmdDz1.ToolTipText = ""
-cmdDZ.Visible = True: cmdDz1.Visible = True
+cmdDz.ToolTipText = "": cmdDz1.ToolTipText = ""
+cmdDz.Visible = True: cmdDz1.Visible = True
 txtHtxz.Text = ""
 txtZbh.Text = ""
 txtQy.Text = ""
@@ -3970,7 +3971,7 @@ txtYjBz.Text = ""
 txtZBZ.Text = ""
 Call FKQing
 frmFk.Visible = False
-txtYRQ.Text = ""
+txtYrq.Text = ""
 txtYje.Text = ""
 lblHid.Caption = ""
 txtFX.Text = ""
@@ -3992,7 +3993,7 @@ For oo = 1 To 13
 Next
 cmdSave.Enabled = False
 optYj.Value = Mixed
-frmYj.Visible = False
+frmYJ.Visible = False
 txtCompanyId.Text = "上海豪曼制冷空调服务有限公司"
 txtQM.Text = ""
 
@@ -4166,7 +4167,7 @@ If Year(txtHtrq.Text) >= "2013" Then
 Else
     frmYG.Visible = False
 End If
-txtXmmc.Text = Ra(1, 0): txtXmmc.ToolTipText = Ra(2, 0)
+txtXMMC.Text = Ra(1, 0): txtXMMC.ToolTipText = Ra(2, 0)
 txtKhmc.Text = Ra(3, 0): txtKhmc.ToolTipText = Ra(4, 0)
 txtHtbh.Text = Ra(5, 0)
 txtHtxz.Text = Ra(6, 0)
@@ -4285,10 +4286,10 @@ txtZBZ.Text = Ra(76, 0)
 
 
 txtHtbh.ToolTipText = Hid
-cmdDZ.ToolTipText = RC(0, 0) '商务条款的fid
+cmdDz.ToolTipText = RC(0, 0) '商务条款的fid
 cmdDz1.ToolTipText = RE(0, 0) '技术条款的fid
 
-If txtHtbh.Text = "HMNEW" Then Me.cmdHT.Visible = True
+If txtHtbh.Text = "HMNEW" Then Me.cmdHt.Visible = True
 txtZe.Text = Rh(0, 0)
 txtEd.Text = Round(Val(txtZe.Text) / Val(txtHtze.Text) * 100, 2)
 lblMF.Caption = ""
@@ -4394,7 +4395,7 @@ End Sub
 Private Sub Form_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
 If mod1.Kyj = True Then
     If X > (Me.Width - 1000) And Y < 1000 Then
-        frmYj.Visible = True
+        frmYJ.Visible = True
         
     End If
 End If
@@ -4590,7 +4591,7 @@ ElseIf timZm = 10 Then '签字
         'MsgBox "已经成功通知合同执行!"
     End If
 ElseIf timZm = 11 Then
-    cmdHT.Visible = False
+    cmdHt.Visible = False
     If W1 > 0 Then
         frmDate.Visible = True
     End If
@@ -4759,7 +4760,7 @@ Me.lblRGF.Caption = W1 + W2 + W3
 Me.lblYs.Caption = W4 + W5
 Me.lblZJ.Caption = W6
 Me.lblMy.Caption = W7 + W8 + W9 + W10 + W11 + W12 + W13
-Me.lblLr.Caption = Val(txtHtze.Text) - Val(lblCBZE.Caption)
+Me.lblLR.Caption = Val(txtHtze.Text) - Val(lblCBZE.Caption)
 If Val(lblCBZE.Caption) > 0 Then
 Me.lblMF.Caption = Round((Val(txtHtze.Text) - Val(txtYJ.Text) - Val(txtQb.Text)) / Val(lblCBZE.Caption), 2)
 End If
@@ -4880,7 +4881,7 @@ Dim Kid As Long
 Dim xid As Long
 FmxcFK.Visible = False
     'dtgKH.Col = 2
-    xid = Me.txtXmmc.ToolTipText
+    xid = Me.txtXMMC.ToolTipText
     
 
 
@@ -4955,7 +4956,7 @@ Dim Kid As Long
 Dim xid As Long
 FmxcFK.Visible = False
     'dtgKH.Col = 2
-    xid = Me.txtXmmc.ToolTipText
+    xid = Me.txtXMMC.ToolTipText
     
 
 
@@ -5135,7 +5136,7 @@ Else
     adoFile.Recordset.Update "frq", mod1.DQda
     adoFile.Recordset.Update "Fname", Fname
     adoFile.Recordset.Update "Flx", FLX
-    adoFile.Recordset.Update "xmmc", txtXmmc.Text
+    adoFile.Recordset.Update "xmmc", txtXMMC.Text
     adoFile.Recordset.Update "htxz", lblHtxz.Caption
     adoFile.Recordset.Update "XZ", xZ '商务条款
     adoFile.Recordset.Fields("FNR").AppendChunk bt()
@@ -5152,7 +5153,7 @@ End If
 Close #1
 MsgBox "成功导入,合同将关闭，您可以重新再打开!"
 If xZ = 0 Then
-    cmdDZ.Visible = False
+    cmdDz.Visible = False
 Else
     cmdDz1.Visible = False
 End If
@@ -5526,7 +5527,7 @@ Public Sub Xian()
 Dim oo As Long
 On Error Resume Next
             FmxcNew.txtHtbh.Top = 100
-            FmxcNew.lblHtbh.Top = 100
+            FmxcNew.lblhtbh.Top = 100
             FmxcNew.lblHtrq.Visible = False
             FmxcNew.txtHtrq.Visible = False
             FmxcNew.dtgFk.Top = 500

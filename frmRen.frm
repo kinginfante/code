@@ -291,9 +291,9 @@ Begin VB.Form frmRen
             Strikethrough   =   0   'False
          EndProperty
          CalendarBackColor=   8454016
-         CalendarTitleBackColor=   12582912
+         CalendarTitleBackColor=   16744576
          CalendarTrailingForeColor=   12583104
-         Format          =   124977152
+         Format          =   135790592
          CurrentDate     =   29295
       End
       Begin VB.ComboBox comQy 
@@ -469,7 +469,7 @@ Begin VB.Form frmRen
          _ExtentX        =   2990
          _ExtentY        =   450
          _Version        =   393216
-         Format          =   139067393
+         Format          =   123207681
          CurrentDate     =   40807
       End
       Begin MSComCtl2.DTPicker dtpLT 
@@ -481,7 +481,7 @@ Begin VB.Form frmRen
          _ExtentX        =   2990
          _ExtentY        =   450
          _Version        =   393216
-         Format          =   139067393
+         Format          =   123207681
          CurrentDate     =   40807
       End
       Begin VB.Label Label16 
