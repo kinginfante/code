@@ -79,7 +79,7 @@ Begin VB.Form htBrowG
          _Version        =   393216
          CalendarBackColor=   12648384
          CalendarTitleBackColor=   16448
-         Format          =   117506049
+         Format          =   138936321
          CurrentDate     =   38100
       End
    End
@@ -455,7 +455,7 @@ Select Case comLx.Text
         ElseIf mod1.DName = "" Or mod1.DName = "徐瑛" Or mod1.DName = "宋晓丹" Then
             tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 合同金额=" & Val(txtZ) & "  order by 合同日期 desc"
         ElseIf mod1.DName = "郑刚" Then
-            tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 合同金额=" & Val(txtZ) & " and 合同编号<>'HMNEW'   order by 合同日期 desc"
+            tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 合同金额=" & Val(txtZ) & " and 合同编号<>'HMNEW'   and 项目归属人='王红'    order by 合同日期 desc"
         
         End If
         If mod1.DName = "陆军" Or mod1.DName = "张戬贇" Then
@@ -497,7 +497,7 @@ Select Case comLx.Text
             tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 项目名称 like '%" & Trim(txtZ) & _
             "%'   order by 合同日期 desc"
         ElseIf mod1.DName = "郑刚" Then
-            tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 项目名称 like '%" & Trim(txtZ) & "%' and 合同编号<>'HMNEW'   order by 合同日期 desc"
+            tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 项目名称 like '%" & Trim(txtZ) & "%' and 合同编号<>'HMNEW'  and 项目归属人='王红'     order by 合同日期 desc"
         ElseIf mod1.DName = "汪燕明" Or mod1.DName = "朱婷婷" Or mod1.DName = "吴金荣" Or mod1.DName = "吴金荣" Then
             tt = "Select 项目归属人,项目名称,合同日期,合同性质,'不知道',合同编号,状态,hid,newF,lr,fid  from htView1 where 项目名称 like '%" & Trim(txtZ) & "%'    order by 合同日期 desc"
 
@@ -539,7 +539,7 @@ Select Case comLx.Text
             tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 合同编号 like '%" & _
             Trim(txtZ) & "%'   order by 合同日期 desc"
         ElseIf mod1.DName = "郑刚" Then
-            tt = "Select 项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 合同编号 like '%" & Trim(txtZ) & "%'    order by 合同日期 desc"
+            tt = "Select 项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF,lr,fid  from htView1 where 合同编号 like '%" & Trim(txtZ) & "%'  and 项目归属人='王红'      order by 合同日期 desc"
         ElseIf mod1.DName = "汪燕明" Or mod1.DName = "朱婷婷" Or mod1.DName = "吴金荣" Or mod1.DName = "吴金荣" Then
             tt = "Select 项目归属人,项目名称,合同日期,合同性质,'不知道',合同编号,状态,hid,newF,lr,fid  from htView1 where 合同编号 like '%" & Trim(txtZ) & "%'    order by 合同日期 desc"
         End If

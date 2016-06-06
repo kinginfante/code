@@ -439,6 +439,11 @@ If lblRen.Caption <> "" And lblUid.Caption <> "" Or lblBM.Caption <> "" Then
         Else
             tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF  from htView1 where 项目归属人='" & _
                 Trim(lblRen.Caption) & "' and xuid='" & Trim(lblUid.Caption) & "' and 合同编号<>'HMNEW'  order by htrq desc"
+                
+                If lblRen.Caption = "朱婷婷" Then
+                    tt = "Select  项目归属人,项目名称,合同日期,合同性质,合同金额,合同编号,状态,hid,newF  from htView1 where ywy='" & _
+                Trim(lblRen.Caption) & "' and xuid='" & Trim(lblUid.Caption) & "' and 合同编号<>'HMNEW'  order by htrq desc"
+                End If
             htBrowG.lblFw.Caption = Trim(lblRen.Caption)
         End If
         If mod1.ZT = "HBData" Then
